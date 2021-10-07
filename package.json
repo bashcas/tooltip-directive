@@ -1,0 +1,26 @@
+{
+  "name": "tooltip-directive",
+  "version": "1.0.0",
+  "description": "Tooltip directive to create tooltips very easily",
+  "main": "build/index.js",
+  "bin": "build/index.js",
+  "keywords": [
+    "tooltip",
+    "directive"
+  ],
+  "scripts": {
+    "build": "babel src -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sebastian-na/tooltip-directive.git"
+  },
+  "author": "Sebastián Castañeda",
+  "license": "MIT",
+  "homepage": "https://github.com/Sebastian-na/tooltip-directive#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8"
+  }
+}
