@@ -23,7 +23,7 @@ const tooltipDirective = {
       triangle.style.width = "0"
       triangle.style.height = "0"
       triangle.style.position = "absolute"
-      if (binding.value.direction === "up") {
+      if (binding.value.position === "up") {
         tooltip.style.left = "50%"
         tooltip.style.bottom = "100%"
         tooltip.style.transform = "translateX(-50%)"
@@ -41,7 +41,7 @@ const tooltipDirective = {
         }, 0)
         return
       }
-      if (binding.value.direction === "down") {
+      if (binding.value.position === "down") {
         tooltip.style.top = "100%"
         tooltip.style.left = "50%"
         tooltip.style.transform = "translateX(-50%)"
@@ -59,7 +59,7 @@ const tooltipDirective = {
         }, 0)
         return
       }
-      if (binding.value.direction === "left") {
+      if (binding.value.position === "left") {
         tooltip.style.right = "100%"
         tooltip.style.top = "50%"
         tooltip.style.transform = "translateY(-50%)"
