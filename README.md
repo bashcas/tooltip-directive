@@ -1,6 +1,6 @@
 # Tooltip-directive
 
-A tooltip is a brief, informative message that appears when a user interacts with an element in a graphical user interface. With this package you can create tooltips with just a directive.
+Create tooltips easily with just a directive.
 
 ## Usage
 
@@ -22,6 +22,13 @@ Then, you can use the directive in any component
   <button v-tooltip="{text: 'Informative text', position: 'up'}"></button>
 </template>
 ```
+
+## Props
+
+| Property | Accepted values               |
+| -------- | ----------------------------- |
+| text     | string                        |
+| position | "up", "down", "left", "right" |
 
 ## Contributors
 
