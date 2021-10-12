@@ -1,6 +1,6 @@
 {
   "name": "tooltip-directive",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tooltip directive to create tooltips very easily",
   "main": "build/index.js",
   "bin": "build/index.js",
