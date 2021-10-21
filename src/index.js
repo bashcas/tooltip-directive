@@ -9,6 +9,7 @@ const tooltipDirective = {
       el.style.position = "relative"
       tooltip = document.createElement("div")
       tooltip.style.textAlign = "center"
+      tooltip.style.minWidth = "200px"
       tooltip.style.zIndex = "1000"
       tooltip.style.backgroundColor = "rgba(0, 0, 0, 0.5)"
       tooltip.style.opacity = "0"
